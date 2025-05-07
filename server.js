@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 
 // routes
 // Authentication routes
-app.use("/auth", authRoutes);
+app.use("/api/auth", authRoutes);
 
 // Game routes
 app.use("/api/games", gameRoutes);
